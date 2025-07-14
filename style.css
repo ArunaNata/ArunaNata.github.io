@@ -1,6 +1,40 @@
-
+/* Jumbotron atau Header */
 .jumbotron {
-    padding-top: 2rem;
+  padding-top: 2rem;
   background-color: #e2edff;
+  text-align: center;
 }
 
+/* Bagian About Me */
+.about-me {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 16px;
+  text-align: justify;
+  line-height: 1.6;
+  word-break: normal;
+}
+
+/* Judul About Me */
+.about-me h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Paragraf */
+.about-me p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* Tambahan gaya responsif */
+@media (max-width: 600px) {
+  .about-me {
+    padding: 0 12px;
+    font-size: 15px;
+  }
+
+  .about-me h2 {
+    font-size: 22px;
+  }
+}
